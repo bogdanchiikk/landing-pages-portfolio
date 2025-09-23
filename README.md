@@ -1,64 +1,46 @@
-🚀 Landing Pages Portfolio
-<div align="center">
-https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+# Landing Pages Portfolio
 
 Коллекция из 11 адаптивных лендингов
 
-🌐 Посмотреть онлайн | 📧 Связаться
+## Live Demo
+[Открыть портфолио](https://bogdanchiikk.github.io/landing-pages-portfolio/)
 
-</div>
-📋 О проекте
-Портфолио с современными адаптивными лендингами, разработанными во время обучения. Каждый проект оптимизирован для мобильных устройств и имеет уникальный дизайн.
+## О проекте
 
-🎯 Особенности
-📱 Полная адаптивность под все устройства
+Портфолио с современными адаптивными лендингами, разработанными во время обучения. Каждый проект оптимизирован для мобильных устройств.
 
-🎨 Современный UI/UX дизайн
+## Список проектов
 
-⚡ Быстрая загрузка и оптимизация
+### Корпоративные сайты
+- **Boldo SaaS** - `boldo-saas-landing/index5.html`
+- **Devinotele Corporate** - `devinotele-corporate-landing/index.html`
+- **Devinotele Partners** - `devinotele-partners-landing/index.html`
 
-💻 Чистый и структурированный код
+### E-commerce
+- **Furniture Catalog** - `furniture-catalog-ui/index.html`
+- **Dlex SaaS** - `dlex-saas-landing/index.html`
 
-📁 Список проектов
-🌐 Корпоративные сайты
-Boldo SaaS - Лендинг для SaaS платформы
+### Услуги
+- **Helicopter Photoshoot** - `helicopter-photoshoot-landing/index.html`
+- **Interior Design Studio** - `interior-design-studio-landing/index.html`
+- **Recycling Service** - `recycling-service-landing/index1.html`
 
-Devinotele Corporate - Корпоративный сайт компании
+### Промо-сайты
+- **Mobile App Promo** - `mobile-app-promo-landing/index3.html`
+- **Real Estate** - `real-estate-landing/index4.html`
+- **Real Estate Stats** - `real-estate-stats-section/index.html`
 
-Devinotele Partners - Партнерская программа
+## Технологии
+- HTML5, CSS3, JavaScript
+- Адаптивная верстка (Mobile-first)
+- Git, GitHub Pages
 
-🛒 E-commerce
-Furniture Catalog - Каталог мебели для интернет-магазина
+## Контакты
+**Автор: Юлия Богданова (bogdanchiikk)  
+**Email: juliabogdanova2005@gmail.com  
+**Телефон: +7 (903) 223-49-74  
+**GitHub: [bogdanchiikk](https://github.com/bogdanchiikk)
 
-Dlex SaaS - Презентация IT-решения
+---
 
-🎨 Услуги
-Helicopter Photoshoot - Услуги аэрофотосъемки
-
-Interior Design Studio - Студия дизайна интерьеров
-
-Recycling Service - Утилизация отходов
-
-📱 Промо-сайты
-Mobile App Promo - Промо мобильного приложения
-
-Real Estate - Сайт по продаже недвижимости
-
-Real Estate Stats - Статистика для риелторов
-
-🛠 Технологии
-HTML5, CSS3, JavaScript
-
-Flexbox, Grid, CSS анимации
-
-Адаптивная верстка (Mobile-first)
-
-Git для контроля версий
-
-📞 Контакты
-👩‍💻 Автор: bogdanchiikk
-📧 Email: juliabogdanova2005@gmail.com
-📱 Телефон: +7 (903) 223-49-74
-💼 GitHub: github.com/bogdanchiikk
+*Для просмотра: откройте `index.html` или перейдите по [ссылке на демо](https://bogdanchiikk.github.io/landing-pages-portfolio/)*
