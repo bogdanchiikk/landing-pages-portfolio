@@ -43,4 +43,6 @@
 
 ---
 
-*Для просмотра: откройте `index.html` или перейдите по [ссылке на демо](https://bogdanchiikk.github.io/landing-pages-portfolio/)*
+**Как посмотреть проекты:**
+- **Онлайн-демо: [Открыть портфолио](https://bogdanchiikk.github.io/landing-pages-portfolio/)
+- **Локально: Скачайте проект и откройте `index.html` в браузере
