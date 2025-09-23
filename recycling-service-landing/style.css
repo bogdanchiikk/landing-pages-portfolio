@@ -1,0 +1,49 @@
+.wrapper {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 20px 0 20px;
+    margin: 20px auto 20px auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-width {
+    width: 50%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.color {
+    color:#02AC8F;
+    
+}
+
+.d-content {
+    justify-content: space-between;
+}
+
+.text-group{
+    text-align:center;
+    font-weight: 600;
+}
+
+.color-text {
+    color:#018B7E;
+    }
+
+.flex{
+
+    display:flex;
+    flex-direction:column;
+}
+
+.gap{
+
+    gap:30px;
+}
+
+.center {
+    text-align:center;  
+}

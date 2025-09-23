@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.width {
+    width: 100%;
+    max-width: 628px;
+}
+
+p {
+    margin: 0;
+}
+
+.font1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50.4px;
+}
+
+.font2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.color1 {
+    color: #FF9C01;
+}
+
+.color2 {
+    color: #0E283C;
+}
+
+.color3 {
+    color: #768C9B;
+}
+
+.padding-25 {
+    padding: 25px 0 0 0;
+}
+
+.gap {
+    gap: 23px;
+}
+
+.padding-73 {
+    padding: 73px 0 0 0;
+}
+
+.font3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.color4 {
+    color: #000000;
+}
+
+.font4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.color5 {
+    color: #4E5C66;
+}
+
+.padding-30 {
+    padding: 30px 0 0 0;
+}
+
+.padding-31 {
+    padding: 0 0 0 30px;
+}
+
+.width1 {
+    width: 100%;
+    max-width: 445px;
+}
+
+.padding-148 {
+    padding: 148px 0 0 0;
+}
+
+.background-orange {
+    background-color: #FFAB00;
+    padding: 12px 0;
+}
+
+.j-content {
+    justify-content: space-between;
+}
+
+.a-items {
+    align-items: center;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.margin-60 {
+    margin-left: 60px;
+}
+
+.button{
+    background-color: white;
+    color: #FFAB00;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-radius: 100px
+}
+
+.font5 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.margin-96 {
+    margin-top: 96px;
+}
+
+.font6 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFAB00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

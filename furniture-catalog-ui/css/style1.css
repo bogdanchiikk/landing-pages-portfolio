@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.my-zag {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.cont-1_1 {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.position-r {
+    position: relative;
+}
+
+.position-r:hover .position-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+    opacity: 0.7;
+}
+
+.position-background__svg {
+    display: none;
+}
+
+.position-r:hover .position-background .position-background__svg {
+    display: block;
+    position: absolute;
+}
+
+.position-r:hover .position-background .svg__full {
+    top: 0;
+    right: 0;
+}
+
+.position-r:hover .position-background .svg__korzina {
+    top: 43%;
+    right: 43%;
+}
+
+.position-r:hover .position-background .svg__like {
+    bottom: 0;
+    right: 43%;
+}
+
+.cont-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 76px;
+    padding-bottom: 71px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-2 {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.link-2 {
+    color: #333333;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+
+.a-email {
+    border: none;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #C4C4C4;
+    width: 100%;
+}
+
+.a-button {
+    color: #333333;
+    background-color: transparent;
+    padding: 8px 28px;
+    text-decoration: none;
+    border: 1px solid #333333;
+    text-align: center;
+    width: fit-content;
+    margin: 35px 0 0 auto;
+}
+
+.cont-2_1 {
+    display: flex;
+    position: relative;
+}
+
+.a-krest {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}

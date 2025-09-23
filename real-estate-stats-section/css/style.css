@@ -1,0 +1,50 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    margin: 0;
+}
+.weight {
+    font-size: 25px;
+    font-weight: 600 ;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1420px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content {
+    justify-content: space-between;
+}
+.width-50 {
+    width: 50%;
+}
+.gap {
+    gap: 30px;
+}
+.block {
+    background: white;
+    padding: 30px 40px; 
+    border-radius: 20px;  
+    width: 25%;
+}
+.color {
+    color: #207FF1;
+    font-size: 38px;
+}
+.size {
+    font-size: 15px;
+    font-weight: 600;
+}
+.padding-20 {
+    padding: 20px 0 0 0;
+}
+.padding-10 {
+    padding: 10px 0 0 0;
+    color: #767676;
+    font-size: 15px;
+}
