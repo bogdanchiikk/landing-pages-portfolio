@@ -1,13 +1,13 @@
 # Landing Pages Portfolio
 
-Коллекция из 11 адаптивных лендингов
+Коллекция из 11+ адаптивных лендингов и email-шаблонов
 
 ## Live Demo
 [Открыть портфолио](https://bogdanchiikk.github.io/landing-pages-portfolio/)
 
 ## О проекте
 
-Портфолио с современными адаптивными лендингами, разработанными во время обучения. Каждый проект оптимизирован для мобильных устройств.
+Портфолио с современными адаптивными лендингами и email-шаблонами, разработанными во время обучения. Каждый проект оптимизирован для мобильных устройств.
 
 ## Список проектов
 
@@ -29,6 +29,9 @@
 - **Mobile App Promo** - `mobile-app-promo-landing/index3.html`
 - **Real Estate** - `real-estate-landing/index4.html`
 - **Real Estate Stats** - `real-estate-stats-section/index.html`
+
+### Email-шаблоны
+- **SPIM Email Template** - `test_email/spim-email.html` - Верстка email-письма для рассылки
 
 ## Технологии
 - HTML5, CSS3, JavaScript
