@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spim — Финальная распродажа лета</title>
+    <style type="text/css">
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f3f0ea;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+            color: #000000;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        table {
+            border-spacing: 0;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        td {
+            padding: 0;
+        }
+        
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+            max-width: 100%;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        /* Основной контейнер */
+        .container {
+            max-width: 600px;
+            width: 100% !important;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        
+        /* Главный баннер */
+        .main-banner {
+            background-image: url('img/arbuz.png'); 
+            background-color: #e73c3e;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            padding: 19px 25px 102px;
+            text-align: center;
+            width: 100%;
+            min-height: 725px;
+        }
+        
+        /* Заголовок */
+        .main-title {
+            font-size: 42px;
+            font-weight: 800;
+            text-transform: uppercase;
+            line-height: 44px;
+            color: #000000;
+            padding-bottom: 20px;
+        }
+        
+        /* Скидки */
+        .discount-percent {
+            font-size: 40px;
+            font-weight: 800;
+            color: #2e2e2e;
+            line-height: 1;
+        }
+
+        .discount-time {
+            font-size: 14px;
+            color: #2e2e2e;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        
+        /* Промокод */
+        .promo-title {
+            font-size: 14px;
+            color: #2e2e2e;
+            padding-top: 20px;
+        }
+
+        .promo-box-dashed {
+            display: inline-block;
+            padding: 11px 20px 7px 20px;
+            background-color: #ffffff;
+            margin: 10px 0;
+            border: 2px dashed #000000;
+            width: 258px;
+            margin-bottom: 30px;
+        }
+
+        .promo-code-dashed {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2e2e2e;
+            text-transform: uppercase;
+        }
+        
+        /* Кнопки */
+        .button {
+            display: inline-block;
+            background-color: #2abe80; 
+            color: #ffffff !important;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 19px 46px 18px 46px;
+            border-radius: 50px; 
+            text-align: center;
+        }
+        
+        .shop-button {
+            display: inline-block;
+            background-color: #2abe80; 
+            color: #ffffff !important;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 18px 46px;
+            border-radius: 50px;
+        }
+        
+        .button-container {
+            text-align: center;
+            background-color: transparent;
+        }
+        
+        /* Описание */
+        .description-text {
+            font-size: 18px;
+            line-height: 28px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-link {
+            color: #476fc6;
+            text-decoration: underline;
+        }
+        
+        /* Категории */
+        .category-link {
+            font-size: 16px;
+            color: #476fc6;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+        
+        .category-img {
+            padding-bottom: 20px;
+        }
+        
+        /* Условия */
+        .conditions-text {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #c4c4c4;
+            text-align: center;
+        }
+        
+        /* Футер */
+        .footer {
+            background-color: #f3f0ea;
+        }
+        
+        .footer-phone {
+            font-size: 17px;
+            font-weight: 400;
+            color: #2abe80;
+            line-height: 27px;
+        }
+        
+        .footer-info {
+            font-size: 14px;
+            color: #a3a3a3;
+            line-height: 100%;
+        }
+        
+        .footer-link {
+            font-size: 14px;
+            color: #a3a3a3;
+            font-weight: 400;
+        }
+        
+        /* Вспомогательные классы */
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-left {
+            text-align: left;
+        }
+        
+        .text-right {
+            text-align: right;
+        }
+
+        /* Стили для Outlook */
+        #outlook a {
+            padding: 0;
+        }
+        
+        .for-outlook {
+            display: none;
+        }
+    </style>
+    <!--[if mso]>
+    <style type="text/css">
+        .container {
+            width: 600px !important;
+        }
+        .button, .shop-button {
+            background-color: #2abe80 !important;
+            border-radius: 50px !important;
+        }
+        .promo-box-dashed {
+            display: none !important;
+        }
+        .for-outlook {
+            display: block !important;
+        }
+        .main-banner {
+            background-color: #e73c3e !important;
+            background-image: none !important;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body>
+    <!--[if mso]>
+    <center>
+    <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td>
+    <![endif]-->
+    
+    <table class="container" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <!-- Главный баннер -->
+                <table class="main-banner" cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <!-- Логотипы В НАЧАЛЕ баннера -->
+                    <tr>
+                        <td align="center" class="banner-top">
+                            <table cellpadding="0" cellspacing="0" border="0" align="center">
+                                <tr>
+                                    <td style="padding-right: 36px;">
+                                        <a href="#"><img src="img/Object.svg" alt="SPIM.RU" width="auto" height="40" style="height: 40px;"></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="img/лого2.svg" alt="mehHOME" width="auto" height="17" style="height: 17px;"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Основной контент баннера -->
+                    <tr>
+                        <td align="center">
+                            <h1 class="main-title">ФИНАЛЬНАЯ РАСПРОДАЖА<br>ЭТОГО ЛЕТА!</h1>
+                            
+                            <!-- Скидки по времени -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td style="padding: 0 14px;">
+                                                    <a href="#"><img src="img/01.svg" alt="10%" width="117" height="60"></a>
+                                                    <div class="discount-percent">10%</div>
+                                                    <div class="discount-time">ДО 19:00</div>
+                                                </td>
+                                                <td style="padding: 0 14px;">
+                                                    <a href="#"><img src="img/02.svg" alt="8%" width="106" height="60"></a>
+                                                    <div class="discount-percent">8%</div>
+                                                    <div class="discount-time">ДО 22:00</div>
+                                                </td>
+                                                <td style="padding: 0 14px;">
+                                                    <a href="#"><img src="img/03.svg" alt="5%" width="69" height="60"></a>
+                                                    <div class="discount-percent">5%</div>
+                                                    <div class="discount-time">ДО 00:00</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Промокод -->
+                            <div class="promo-section">
+                                <div class="promo-title">Промокод</div>
+                                
+                                <div class="promo-box-dashed">
+                                    <div class="promo-code-dashed">GOODBYELETO</div>
+                                </div>
+                                
+                                <!--[if mso]>
+                                <div class="for-outlook" style="display: inline-block; padding: 20px 40px; background-color: #ffffff; margin: 10px 0; border: 2px dashed #000000;">
+                                    <div style="font-size: 36px; font-weight: bold; color: #000000; letter-spacing: 5px; text-transform: uppercase;">GOODBYELETO</div>
+                                </div>
+                                <![endif]-->
+                            </div>
+                            
+                            <!-- Кнопка "Получить скидку" -->
+                            <table class="button-container" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <a href="#" class="button">Получить скидку</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Остальной код -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; padding: 54px 50px;">
+                    <tr>
+                        <td class="text-left">
+                            <p class="description-text">Здравствуйте!</p>
+                            <p class="description-text">Теперь, когда вы готовы к школе и обновили спальни своих малышей, пришла пора подумать о себе. Возможно, настало время поменять подушку или вы давно собирались купить <a href="#" class="highlight-link">шерстяное одеяло</a> на тот период, когда по ночам уже холодает, а отопление ещё не включили.</p>
+                            <p class="description-text" style="margin-bottom: 40px;">В конце концов, порадуйте себя новым комплектом <a href="#" class="highlight-link">мягкого постельного белья</a> или красивым <a href="#" class="highlight-link">уютным пледом</a>! Но торопитесь, <strong style="font-weight: bold;">скидка 10%</strong> на все эти радости будет действовать только до <strong style="font-weight: bold;">13:00</strong>.</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="text-center">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="33%" class="text-center" valign="top" style="padding: 10px 5px;">
+                                        <a href="#"><img src="img/Rectangle.svg" alt="" class="category-img"></a>
+                                        <a href="#" class="category-link">Подушки</a>
+                                    </td>
+                                    <td width="34%" class="text-center" valign="top" style="padding: 10px 5px;">
+                                        <a href="#"><img src="img/Rectangle (1).svg" alt="" class="category-img"></a>
+                                        <a href="#" class="category-link">Одеяла</a>
+                                    </td>
+                                    <td width="33%" class="text-center" valign="top" style="padding: 10px 5px;">
+                                        <a href="#"><img src="img/Rectangle (2).svg" alt="" class="category-img"></a>
+                                        <a href="#" class="category-link">Постельное бельё</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="33%" class="text-center" valign="top" style="padding: 10px 5px;">
+                                        <a href="#"><img src="img/Rectangle (3).svg" alt="" class="category-img"></a>
+                                        <a href="#" class="category-link">Пледы и покрывала</a>
+                                    </td>
+                                    <td width="34%" class="text-center" valign="top" style="padding: 10px 5px;">
+                                        <a href="#"><img src="img/Rectangle (4).svg" alt="" class="category-img"></a>
+                                        <a href="#" class="category-link">Ванная</a>
+                                    </td>
+                                    <td width="33%" class="text-center" valign="top" style="padding: 10px 5px;">
+                                        <a href="#"><img src="img/Rectangle (5).svg" alt="" class="category-img"></a>
+                                        <a href="#" class="category-link">Кухня</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="text-center" style="padding: 48px 0 68px 0;">
+                            <a href="#" class="shop-button">В магазин</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="text-center">
+                            <p class="conditions-text">Промокод действует на все товары, кроме разделов «Кровати» и «Матрасы». Скидка не суммируется со скидками на сайте, скидками и подарками по другим промокодам и дисконтным картам. Размер скидки зависит от времени оформления заказа.</p>
+                        </td>
+                    </tr>
+                </table>
+                
+                <!-- Футер -->
+                <table class="footer" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="text-center" style="padding: 34px 29px 23px;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 500px; margin-bottom: 30px;">
+                                <tr>
+                                    <td class="text-left" valign="middle" width="50%">
+                                        <a href="#"><img src="img/Соцсети.svg" alt="Социальные сети" style="display: inline-block; vertical-align: middle;"></a>
+                                    </td>
+                                    <td class="text-right" valign="middle" width="50%">
+                                        <p class="footer-phone">8 800 555 60 55</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <p class="footer-info" style="margin: 0 0 29px 0; max-width: 542px;">Данное письмо было отправлено на hafizova.i@gmail.com. Пожалуйста, добавьте mailer@spim.ru в вашу адресную книгу, чтобы наши письма не попадали в спам.</p>
+                            
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 300px; margin: 0 auto;">
+                                <tr>
+                                    <td class="text-center" style="padding: 0 15px;">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td style="padding-right: 6px; vertical-align: middle;">
+                                                    <a href="#"><img src="img/отписаться.svg" alt="" style="vertical-align: middle;"></a>
+                                                </td>
+                                                <td style="vertical-align: middle;">
+                                                    <a href="#" class="footer-link">Отписаться</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="text-center" style="padding: 0 15px;">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td style="padding-right: 6px; vertical-align: middle;">
+                                                    <a href="#"><img src="img/Shape.svg" alt="" style="vertical-align: middle;"></a>
+                                                </td>
+                                                <td style="vertical-align: middle;">
+                                                    <a href="#" class="footer-link">Веб-версия</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    </center>
+    <![endif]-->
+</body>
+</html>
